@@ -1,0 +1,36 @@
+
+.nav__bar{
+
+
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: lightgray;
+    align-items: center;
+    border-radius: 4px;
+   
+}
+
+.nav__list{
+    display: flex;
+ list-style: none;
+  flex-wrap: wrap;
+  align-content: space-between;
+  
+   
+  
+ 
+}
+.nav__list a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logu{
+    margin-left: 20px;
+}
+.logu__link{
+    text-decoration: none;
+}
+

@@ -1,0 +1,22 @@
+.hero__section{
+    width: 1000px;
+    height: 300px;
+    background-color: rgba(212, 175, 175, 0.418);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px ;
+    margin-top: 10px;
+}
+.hero__info{
+    
+   
+    
+}
+.hero__section .hero__info__div{
+    width: 800px;
+  height: 100px;
+ 
+
+}
