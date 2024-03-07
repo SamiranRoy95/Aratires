@@ -13,6 +13,7 @@ import {
 } from "react-router-dom";
 import Login from './pages/Login/Login'
 import Register from './pages/Register/Register'
+import Detail from './pages/Detail/Detail'
 
 
 function App() {
@@ -20,11 +21,12 @@ function App() {
 
   return (
     <div>
-      <h1>This is restaurant project</h1>
+      
       <Navbar/>
       <Routes>
       
         <Route path='/' element={<Home/>}/>
+        <Route path="/detail/:id" element={<Detail/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/register' element={<Register/>}/>
        

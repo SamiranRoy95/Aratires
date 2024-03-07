@@ -1,0 +1,15 @@
+.detail{
+    
+    display: flex;
+    gap:50px
+    
+    
+}
+
+.detail__post{
+    flex-direction: column;
+    display: flex;
+    /* background-color:green; */
+    gap: 30px;
+    flex: 5;
+}
